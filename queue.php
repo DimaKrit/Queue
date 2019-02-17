@@ -11,7 +11,8 @@ class Queue
         array_push($this->stacksOne, $value);
     }
   
-    public function remove() {
+    public function remove() 
+    {
 
         $this->shift();
 
@@ -51,5 +52,7 @@ $queue->add(3);
 $queue->add(45);
 
 var_dump($queue->peek());
+
 $queue->add(45);
+
 var_dump($queue->peek());
