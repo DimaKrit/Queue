@@ -16,7 +16,7 @@ class Queue
 
         $this->shift();
 
-        return array_pop($this->stacksTwo);
+        array_pop($this->stacksTwo);
     }
   
     public function peek() 
